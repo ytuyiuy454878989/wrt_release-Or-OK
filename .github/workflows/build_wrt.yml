@@ -27,7 +27,8 @@ on:
           - zn_m2_immwrt
           - zn_m2_libwrt
           - x64_immwrt
-
+          - sy_y6010_immwrt
+          - sy_y6010_libwrt
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
