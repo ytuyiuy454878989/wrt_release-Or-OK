@@ -1,4 +1,7 @@
 name: Release WRT
+permissions:
+  contents: write   # 核心：允许创建tag、release、推送代码
+  pull-requests: write
 run-name: Release - ${{ inputs.model }}
 
 on:
